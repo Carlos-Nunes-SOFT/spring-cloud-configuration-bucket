@@ -17,9 +17,6 @@ spring:
                 format_sql: true
         show-sql: true
         defer-datasource-initialization: true
-    
-    config: 
-        import: optional:configserver:http://localhost:8888
 
 server:
     port: 8080
